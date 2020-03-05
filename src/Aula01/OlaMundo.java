@@ -66,21 +66,23 @@ public class OlaMundo {
 		*/
 		OlaMundo om = new OlaMundo();
 
-		double r1 = om.Soma(10d, 10d);
-		double r2 = om.Subtracao(10.5, 5.9);
+		double r1 = om.soma(10d, 10d);
+		double r2 = om.subtracao(20.5, r1);
 		
 		//--
-		System.out.println(r1);
+		System.out.println("A soma dos números é " + r1);
 		
 		//--
-		System.out.println(r2);
+		System.out.println("A subtração dos números é " + r2);
 	}
 	
-	public Double Soma(Double N1, Double N2) {
+	public Double soma(Double N1, Double N2) {
 		return N1 + N2;
 	}
 		
-	public Double Subtracao(Double N1, Double N2) {
+	public Double subtracao(Double N1, Double N2) {
 			return N1 - N2;
-	}		
+	}
+	
+
 }
