@@ -23,7 +23,7 @@ public class OlaMundo {
 		
 		//System.out.println(minhaString1.substring(2));
 		//System.out.println(minhaString1.concat(" Trust"));
-		*/
+		
 		String minhaString1 = "Target\fTrust";
 		
 		Boolean meuBoleano = false;
@@ -63,5 +63,16 @@ public class OlaMundo {
 		System.out.println(minhaString1);
 		
 		System.out.println("Teste de commit 123"   );
+		*/
+		OlaMundo om = new OlaMundo();
+
+		double r = om.Soma(10d, 10d);
+		
+		System.out.println(r);
+	}
+	
+	public Double Soma(Double N1, Double N2) {
+		return N1 + N2;
+		
 	}
 }
