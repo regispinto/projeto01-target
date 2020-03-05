@@ -66,23 +66,33 @@ public class OlaMundo {
 		*/
 		OlaMundo om = new OlaMundo();
 
-		double r1 = om.soma(10d, 10d);
+		double r1 = om.soma(11.5, 12.5d);
 		double r2 = om.subtracao(20.5, r1);
 		
 		//--
 		System.out.println("A soma dos números é " + r1);
 		
 		//--
-		System.out.println("A subtração dos números é " + r2);
+		//System.out.println("A subtração dos números é " + r2);
+		
+		om.imprimeNaTelaBoaNoite("Boa Noite");
 	}
 	
 	public Double soma(Double N1, Double N2) {
-		return N1 + N2;
+		if(N1>10.0 && N2>10.0) { 
+		  return N1 + N2;
+		}
+		return -1.0;
 	}
 		
 	public Double subtracao(Double N1, Double N2) {
-			return N1 - N2;
+		return N1 - N2;
 	}
+	
+	public void imprimeNaTelaBoaNoite(String Texto) {
+		System.out.println(Texto);
+	}
+	
 	
 
 }
