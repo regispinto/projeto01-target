@@ -36,7 +36,7 @@ public class OlaMundo {
 		short alturaAnimal = 95;
 		long comprimentoAnimal = 120;
 		byte idadeAnibal = 127;
-		boolean temDono = true;
+		boolean temDono = true; 
 		char letraInicialAnimal = 'D';
 				
 		System.out.println(codigoPedigree);
